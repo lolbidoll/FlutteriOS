@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "870489630345",
+    "firebase_url": "https://smartechsdk-3xx.firebaseio.com",
+    "project_id": "smartechsdk-3xx",
+    "storage_bucket": "smartechsdk-3xx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870489630345:android:60c3c690a9b5d72c974858",
+        "android_client_info": {
+          "package_name": "com.netcore.smartechapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870489630345-opad3kp554aacs26k14e30gsu8lvi07a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHVrfsWzBB2oNg4RgqBlZSqt0scmU1pXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870489630345-opad3kp554aacs26k14e30gsu8lvi07a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "870489630345-qreefp41hdkgl0s2hll0s24f0kghvmgn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.netcore.SmartechApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
