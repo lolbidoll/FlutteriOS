@@ -59,11 +59,23 @@ PODS:
   - nanopb/decode (2.30909.1)
   - nanopb/encode (2.30909.1)
   - PromisesObjC (2.3.1)
+  - Smartech-iOS-SDK (3.4.0)
+  - smartech_base (1.0.0):
+    - Flutter
+    - Smartech-iOS-SDK
+  - smartech_push (1.0.0):
+    - Flutter
+    - SmartPush-iOS-SDK
+  - SmartPush-iOS-SDK (3.4.0):
+    - Smartech-iOS-SDK (>= 3.4.0)
 
 DEPENDENCIES:
   - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
   - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
   - Flutter (from `Flutter`)
+  - smartech_base (from `.symlinks/plugins/smartech_base/ios`)
+  - smartech_push (from `.symlinks/plugins/smartech_push/ios`)
+  - SmartPush-iOS-SDK
 
 SPEC REPOS:
   trunk:
@@ -76,6 +88,8 @@ SPEC REPOS:
     - GoogleUtilities
     - nanopb
     - PromisesObjC
+    - Smartech-iOS-SDK
+    - SmartPush-iOS-SDK
 
 EXTERNAL SOURCES:
   firebase_core:
@@ -84,6 +98,10 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/firebase_messaging/ios"
   Flutter:
     :path: Flutter
+  smartech_base:
+    :path: ".symlinks/plugins/smartech_base/ios"
+  smartech_push:
+    :path: ".symlinks/plugins/smartech_push/ios"
 
 SPEC CHECKSUMS:
   Firebase: f4ac0b02927af9253ae094d23deecf0890da7374
@@ -98,7 +116,11 @@ SPEC CHECKSUMS:
   GoogleUtilities: 0759d1a57ebb953965c2dfe0ba4c82e95ccc2e34
   nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
+  Smartech-iOS-SDK: b452b3c105b9b91be895935bf3a9de699499716c
+  smartech_base: 9e2fd9e596518cc7ae850752bfc7abbb7539a8b1
+  smartech_push: 264d63abbf0b40ff72ee2dfb24143d4021235b42
+  SmartPush-iOS-SDK: 93432c63110f550a9d34d7a421f2ec2233fb8307
 
-PODFILE CHECKSUM: 9fc461c42857abeacadf1afc709d9bcaae291b0f
+PODFILE CHECKSUM: 11f9b76425c2c560d08b0f9816dcf2cb504e2d32
 
 COCOAPODS: 1.13.0

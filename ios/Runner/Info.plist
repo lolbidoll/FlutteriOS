@@ -37,6 +37,19 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>SmartechKeys</key>
+	<dict>
+		<key>SmartechAppGroup</key>
+		<string>group.com.netcore.SmartechApp</string>
+		<key>SmartechAppId</key>
+		<string>17e81d24d6c85a767772c91e881ebdd7</string>
+		<key>SmartechAutoFetchInboxNotification</key>
+		<true/>
+		<key>SmartechAutoFetchLocation</key>
+		<false/>
+		<key>SmartechUseAdvId</key>
+		<true/>
+	</dict>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
