@@ -39,6 +39,7 @@ dependencies:
   firebase_messaging: ^14.7.4
   smartech_base: ^3.2.8
   smartech_push: ^3.2.8
+  wakelock: ^0.6.2
 
 dev_dependencies:
   flutter_test:
